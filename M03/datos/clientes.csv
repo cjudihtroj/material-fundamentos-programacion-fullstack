@@ -1,0 +1,11 @@
+id,nombre,email,direccion,edad,estado
+1,Juan Pérez,juan.perez@example.com,Av. Los Jardines 123,30,Activo
+2,María López,maria.lopez@example.com,Jr. Las Flores 456,28,Inactivo
+3,Ana Torres,ana.torres@example.com,Calle Sol 789,26,
+4,Carlos Ramírez,carlos.ramirez@example.com,Av. Central 321,35,Activo
+5,Laura Martínez,laura.martinez@example.com,Av. Los Jardines 123,29,Inactivo
+6,Pedro Gómez,pedro.gomez@example.com,Calle Primavera 10,22,
+7,Silvia Vega,silvia.vega@example.com,Av. El Sol 77,27,Activo
+8,Diego Vega,diego.vega@example.com,Calle Santa Rosa 14,33,Activo
+9,Renata Diaz,renata.diaz@example.com,Jr. San Martín 88,24,Inactivo
+10,Martin Flores,martin.flores@example.com,Av. Perú 112,31,Activo
