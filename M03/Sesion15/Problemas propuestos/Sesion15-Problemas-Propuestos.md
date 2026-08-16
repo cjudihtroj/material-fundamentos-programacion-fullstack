@@ -1,3 +1,5 @@
+<img src="https://posgrado.utec.edu.pe/sites/default/files/2023-08/Testimonial-home-2.jpg" alt="UTEC" width="900" height="200">
+
 # Problemas Propuestos - Sesión 15
 
 ## Caso de estudio: ShopEasy
@@ -101,19 +103,9 @@ Responde:
 
 ---
 
-### Problema 5
-
-Explica cómo quedaría una versión normalizada de la estructura.
-
-- ¿Qué columnas dependen directamente de la clave primaria?
-- ¿Qué columnas dependen de otra columna?
-- ¿Qué tablas separarías para llegar a 3FN?
-
----
-
 ## 3. DDL y restricciones
 
-### Problema 6
+### Problema 5
 
 Crea el esquema base para `shopeasy` con las tablas principales:
 
@@ -137,7 +129,7 @@ Define:
 
 ---
 
-### Problema 7
+### Problema 6
 
 Añade estas reglas de negocio:
 
@@ -155,7 +147,7 @@ Escribe la SQL necesaria.
 
 ## 4. Datos de prueba
 
-### Problema 8
+### Problema 7
 
 Carga datos mínimos para probar la base de datos:
 
@@ -173,65 +165,6 @@ Carga datos mínimos para probar la base de datos:
 
 ---
 
-## 5. Consultas con JOIN
-
-### Problema 9
-
-Escribe consultas para responder:
-
-1. Listar pedidos con el nombre del cliente.
-2. Mostrar cada pedido con su total y el método de pago.
-3. Mostrar productos con su categoría y proveedor.
-4. Listar clientes y sus direcciones.
-5. Obtener el detalle completo de un pedido.
-6. Mostrar clientes sin pedidos.
-7. Mostrar productos no vendidos.
-
-> Deben incluir `INNER JOIN` y `LEFT JOIN`.
-
----
-
-### Problema 10
-
-Responde:
-
-1. ¿Cuántos pedidos ha hecho cada cliente?
-2. ¿Cuál es el total vendido por producto?
-3. ¿Cuál es el ingreso total por categoría?
-4. ¿Cuántos productos tiene cada proveedor?
-5. ¿Qué clientes tienen más de 2 pedidos?
-6. ¿Cuáles son los 5 productos más vendidos?
-7. ¿Cuál es el cliente que más ha gastado?
-
----
-
-## 6. Subconsultas y agregación
-
-### Problema 11
-
-Escribe consultas con subconsultas para:
-
-1. Mostrar pedidos cuyo total supera el promedio general.
-2. Encontrar el producto más caro.
-3. Listar productos por encima del promedio de precios.
-4. Mostrar usuarios con rol de administrador.
-5. Encontrar clientes que pagaron con tarjeta.
-
----
-
-### Problema 12
-
-Responde:
-
-1. ¿Cuál es el precio promedio de los productos?
-2. ¿Cuál es el total de ingresos acumulados?
-3. ¿Cuál es el pedido con mayor valor?
-4. ¿Cuántos clientes están registrados?
-5. ¿Cuántos productos tienen stock menor a 5?
-6. ¿Cuántos pagos hay por cada método de pago?
-
----
-
 ## 7. Reto final
 
 ### Problema 13
@@ -242,12 +175,7 @@ Diseña la base de datos completa para ShopEasy con:
 2. Esquema normalizado.
 3. Script DDL con PK/FK/UNIQUE/CHECK.
 4. Datos iniciales de prueba.
-5. 6 consultas con JOIN.
-6. 4 consultas con agregación.
-7. 3 consultas con subconsultas.
-8. Justificación breve de decisiones de diseño.
-
-Esto será la base para el taller final del módulo.
+5. Justificación breve de decisiones de diseño.
 
 ---
 
@@ -258,5 +186,3 @@ Esto será la base para el taller final del módulo.
 3. Normaliza antes de crear tablas.
 4. Escribe el DDL con restricciones.
 5. Comprueba las consultas con datos reales.
-
-Este ejercicio es suficiente para reforzar los conceptos de la sesión 15 sin hacerla excesivamente larga.
